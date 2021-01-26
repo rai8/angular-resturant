@@ -1,0 +1,22 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "KFC Restaurant",
+      "address": "noida sector 50",
+      "email": "kfc@net.com"
+    },
+    {
+      "id": 2,
+      "name": "Swahili Dishes",
+      "address": "Moi Avenue Road",
+      "email": "sdishes@net.com"
+    },
+    {
+      "name": "HewHay Dishes",
+      "address": "Kimathi Street",
+      "email": "hewhay@net.com",
+      "id": 3
+    }
+  ]
+}

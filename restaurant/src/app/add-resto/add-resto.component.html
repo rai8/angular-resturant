@@ -1,0 +1,33 @@
+<h1>Add restaurant</h1>
+<form [formGroup]="addResto" (ngSubmit)="onSubmit()">
+  <div class="mb-3">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Restaurant's Name"
+      required
+      formControlName="name"
+    />
+  </div>
+  <div class="mb-3">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Restaurant's Address"
+      required
+      formControlName="address"
+    />
+  </div>
+  <div class="mb-3">
+    <input
+      type="email"
+      class="form-control"
+      placeholder="Restaurant's Email"
+      required
+      formControlName="email"
+    />
+  </div>
+  <div class="mb-3">
+    <input type="submit" value="submit" class="btn btn-primary btn-block" />
+  </div>
+</form>
